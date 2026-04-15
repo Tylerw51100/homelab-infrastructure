@@ -1,7 +1,7 @@
 # Home Lab Infrastructure
 
 ## Overview
-This project documents a self-hosted, enterprise-style lab environment designed to simulate real-world IT infrastructure. It focuses on high availability, network segmentation, automation, and secure service delivery across a multi-node virtualized environment.
+This project documents my self-hosted, enterprise-style lab environment designed to simulate real-world IT infrastructure. It focuses on high availability, network segmentation, automation, and secure service delivery across a multi-node virtualized environment.
 
 ---
 
@@ -66,8 +66,8 @@ This lab is designed to replicate a small-scale enterprise environment with:
 - Reverse Proxy: NGINX Proxy Manager  
 - Containerized services via Docker Compose  
 - VPN: NetBird (secure overlay network)  
-- PXE boot server for OS deployment  
-- Self-hosted applications (password manager, notes, VS Code server)
+- PXE boot server for OS deployment (netboot-xyz) 
+- Self-hosted applications (password manager, notes app, VS Code server, etc.)
 
 ---
 
