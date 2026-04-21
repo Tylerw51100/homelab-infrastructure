@@ -10,19 +10,19 @@ $ORIGIN home.wetheringtontelecom.com.
                         3600 )      ; minimum (1 hour)
 
 		        IN	NS	    ns.home.wetheringtontelecom.com.
-ns              IN  A       10.0.0.253   
+ns              IN  A       10.0.10.253   
 
-proxy           IN  A       10.0.0.240
-vs-code         IN  A       10.0.0.193
-netboot-xyz     IN  A       10.0.0.192
-proxmox-r630    IN  A       10.0.0.60
-proxmox-n01     IN  A       10.0.0.138
-proxmox-n02     IN  A       10.0.0.200
-proxmox-n03     IN  A       10.0.0.161
-HA              IN  A       10.0.0.68
-passbolt        IN  A       10.0.0.208
-proxmox-pc      IN  A       10.0.0.185
-nextcloud       IN  A       10.0.0.131
-NUT             IN  A       10.0.0.172
+proxy           IN  A       10.0.10.240
+vs-code         IN  A       10.0.10.193
+netboot-xyz     IN  A       10.0.10.192
+proxmox-r630    IN  A       10.0.10.60
+proxmox-n01     IN  A       10.0.10.138
+proxmox-n02     IN  A       10.0.10.200
+proxmox-n03     IN  A       10.0.10.161
+HA              IN  A       10.0.10.68
+passbolt        IN  A       10.0.10.208
+proxmox-pc      IN  A       10.0.10.185
+nextcloud       IN  A       10.0.10.131
+NUT             IN  A       10.0.10.172
 AG-master       IN  CNAME   proxy.home.wetheringtontelecom.com.
 AG-failover     IN  CNAME   proxy.home.wetheringtontelecom.com.
