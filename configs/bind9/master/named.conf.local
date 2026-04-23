@@ -2,11 +2,19 @@
 // Do any local configuration here
 //
 
-// Consider adding the 1918 zones here, if they are not used in your
-// organization
-//include "/etc/bind/zones.rfc1918";
-
-zone "home.wetheringtontelecom.com" IN {
+// Forward zone 
+zone "home.wetheringtontelecom.com" IN { 
+  // Primary DNS
   type master;
+
+  // Forward lookup file
   file "/etc/bind/home-wetheringtontelecom-com.zone";
+
+  allow-update { none; };
+
+  // Allow Transfer of this zone from this master server
+  allow-transfer  { 10.0.10.107; }; 
+
+  // Notify slave of changes in this zone
+  also-notify { 10.0.10.107; };
 };
