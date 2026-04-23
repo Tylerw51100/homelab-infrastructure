@@ -1,0 +1,18 @@
+//
+// Do any local configuration here
+//
+
+// Forward zone
+zone "home.wetheringtontelecom.com" IN { 
+    //Secondary Slave DNS
+     type slave;
+
+    //Forward Zone Cache file
+     file "/var/cache/bind/forward.home.wetheringtontelecom.com.db"; 
+
+    //Master Server IP
+     masters { 10.0.10.253; }; 
+
+};
+
+
