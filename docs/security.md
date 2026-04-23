@@ -8,7 +8,7 @@
     - OS version upgrades via Ansiable
 
 ## Network
-    ### UniFi gateway
+- ### UniFi gateway
     - VLAN-based network segmentation
     - Firewall rules and traffic isolation
     - IDS/IPS
