@@ -89,22 +89,6 @@ This lab is designed to replicate a small-scale enterprise environment with:
 
 ---
 
-## Incident & Troubleshooting Examples
-
-### Proxmox Boot Failure (EFI/GRUB Corruption)
-- Diagnosed boot failure after system upgrade  
-- Used Linux rescue environment to mount system partitions  
-- Chrooted into the OS to rebuild EFI and GRUB  
-- Restored system functionality without full reinstall  
-
-### UniFi Gateway Hardware Failures (Airbnb Networks)
-- Replaced failed gateway hardware across multiple deployments  
-- Restored configurations from backup  
-- Verified device adoption and network stability  
-- Minimized downtime for production environments  
-
----
-
 ## What This Demonstrates
 
 - System administration and troubleshooting  
